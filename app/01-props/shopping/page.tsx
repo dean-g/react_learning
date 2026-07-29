@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import { shoppingData } from "../data/shopping-data";
+import { shoppingData } from "../../data/shopping-data";
 import ShoppingItems from "./components/shopping-items";
 
 export default function Shopping() {

@@ -1,4 +1,4 @@
-import ButtonTooltip from "../components/tooltip-button";
+import ButtonTooltip from "../components/tooltips/tooltip-button";
 
 export default function ToolTips() {
 

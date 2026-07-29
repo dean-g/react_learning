@@ -1,5 +1,5 @@
 import { useId } from "react";
-import { ToolTipsProps } from "../models/tooltip-content.interface";
+import { ToolTipsProps } from "../../models/tooltip-content.interface";
 
 const positionClasses: Record<NonNullable<ToolTipsProps["tooltipPosition"]>, string> = {
     default: "bottom-full left-1/2 -translate-x-1/2 mb-2",
