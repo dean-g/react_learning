@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+
+  padding: 20px 24px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #fafafa;
+}
+
+/* Badge wrapper */
+.badge {
+  position: relative;
+  display: inline-block;
+}
+
+/* The floating count */
+.badge-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #ff4d6d, #c9184a);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+
+  height: 20px;
+  min-width: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  border: 2px solid white;
+  box-shadow: 0 2px 6px rgba(201, 24, 74, 0.5);
+
+  text-align: center;
+  user-select: none;
+}

@@ -1,4 +1,4 @@
-import { IShoppingItems } from "../../models/shopping-items-interface";
+import { IShoppingItems } from "../../../models/shopping-items-interface";
 
 export default function ShoppingItems({ items }: {items: IShoppingItems}) {
     const {name, price, brand, rating, category, isInStock} = items;
