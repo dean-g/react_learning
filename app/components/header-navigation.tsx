@@ -3,6 +3,7 @@ import Link from "next/link";
 const demos = [
   { href: "/01-props/shopping", label: "01 - Props: Shopping example" },
   { href: "/01-badge", label: "02 - Children: Badge example" },
+  { href: "/01-tooltip", label: "02 - Children: Tooltips" },
 ];
 
 export default function HeaderNavigation() {
