@@ -10,6 +10,7 @@ export default function Example6() {
             {paymentPlanData.map((plan) => 
                 <PaymentCard 
                     credits={plan.credits}
+                    planName={plan.planName}
                     paymentPlan={plan.paymentPlan}
                     title={plan.title}
                     key={plan.id}
